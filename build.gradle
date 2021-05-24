@@ -22,7 +22,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
-	runtimeOnly 'com.h2database:h2'
+	compile 'com.h2database:h2'
 	implementation 'org.springframework.boot:spring-boot-starter-mustache'
 	compile 'org.webjars:jquery:3.6.0'
 	compile 'org.webjars:bootstrap:5.0.1'
